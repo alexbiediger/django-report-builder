@@ -6,11 +6,7 @@ Targets sys admins and capable end users who might not be able to program or gai
 [![pipeline status](https://gitlab.com/burke-software/django-report-builder/badges/master/pipeline.svg)](https://gitlab.com/burke-software/django-report-builder/commits/master)
 [![coverage report](https://gitlab.com/burke-software/django-report-builder/badges/master/coverage.svg)](https://gitlab.com/burke-software/django-report-builder/commits/master)
 
-# Call for Sponsorship
-
-<a href="https://liberapay.com/burke-software/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-
-Are you a fan of Report Builder or using it at your workplace? Please consider sponsorship. You may donate on [Liberapay](https://liberapay.com/burke-software/donate) directly or contact me about sponsoring a feature. Right now, we need better documentation. Get your profile or company logo added to our Readme as a sponsor. Paid commercial support is also available. Email info@burkesoftware.com for more infomation.
+This project is in maintenance mode. Merge requests will be reviewed and contributions are very welcome. If you plan to add new features, I ask that you either contribute to the general maintenance or pay for my time to review and merge. Just open an issue and ask what you can help out on. Regular contributors are welcome to join the project as a core developer.
 
 # News
 
