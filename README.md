@@ -10,6 +10,10 @@ This project is in maintenance mode. Merge requests will be reviewed and contrib
 
 # News
 
+## 6.5
+
+- Add Django 4.x support. Thanks @jeanwainer
+
 ## 6.4.2
 
 - Fixes to CI pipeline
