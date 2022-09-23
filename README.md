@@ -10,9 +10,9 @@ This project is in maintenance mode. Merge requests will be reviewed and contrib
 
 # News
 
-## 6.5
+## 6.5 (unreleased)
 
-- Add Django 4.x support. Thanks @jeanwainer
+- Add Django 4.x support. Django 3.2 is still supported. Thanks @jeanwainer
 
 ## 6.4.2
 
@@ -21,17 +21,6 @@ This project is in maintenance mode. Merge requests will be reviewed and contrib
 ## 6.4
 
 - Added Django 3.0 and 3.1 support. Django 1.11 and 2.2 are still supported. This will likely be the last release to support 1.11.
-
-## 6.3.2
-
-- Fixed admin widgets (Thanks predatell)
-- Angular updated to version 8
-
-## 6.3
-
-- Added Django 2.2 support. Django 1.11 and 2.1 are still supported.
-- Unit tests finally run in Python 3.7 thanks to Celery supporting it
-- Angular updated to version 7
 
 View more on the [CHANGELOG](CHANGELOG).
 
