@@ -1,28 +1,25 @@
-image: python:3.6-slim
+image: python:3.8-slim
 variables:
   POETRY_VIRTUALENVS_CREATE: "false"
   PIP_DISABLE_PIP_VERSION_CHECK: "on"
-
-test_py36:
-  cache:
-    paths:
-    - ~/.cache/pip/
-  script:
-    - pip install tox poetry
-    - tox
-
-test_py37:
-  image: python:3.7
-  script:
-    - pip install --upgrade pip; pip install zipp
-    - pip install tox poetry
-    - tox -c tox.py37.ini
 
 test_py38:
   image: python:3.8-slim
   script:
     - pip install tox poetry
     - tox -c tox.py38.ini
+
+test_py39:
+  image: python:3.9-slim
+  script:
+    - pip install tox poetry
+    - tox -c tox.py39.ini
+
+test_py310:
+  image: python:3.10-slim
+  script:
+    - pip install tox poetry
+    - tox -c tox.py310.ini
 
 test_coverage:
   script:
