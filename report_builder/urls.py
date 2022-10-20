@@ -1,4 +1,4 @@
-from django.conf.urls import re_path, include
+from django.urls import re_path, include
 from django.contrib.admin.views.decorators import staff_member_required
 from rest_framework import routers
 from . import views
