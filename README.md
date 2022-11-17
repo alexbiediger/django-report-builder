@@ -6,7 +6,7 @@ Targets sys admins and capable end users who might not be able to program or gai
 [![pipeline status](https://gitlab.com/burke-software/django-report-builder/badges/master/pipeline.svg)](https://gitlab.com/burke-software/django-report-builder/commits/master)
 [![coverage report](https://gitlab.com/burke-software/django-report-builder/badges/master/coverage.svg)](https://gitlab.com/burke-software/django-report-builder/commits/master)
 
-This project is in maintenance mode. Merge requests will be reviewed and contributions are very welcome. If you plan to add new features, I ask that you either contribute to the general maintenance or pay for my time to review and merge. Just open an issue and ask what you can help out on. Regular contributors are welcome to join the project as a core developer.
+Status: Unmaintained and does not support the latest Django version. I haven't used this project personally for many years. Please open an issue if you can help contribute or wish to take over the project entirely.
 
 # News
 
