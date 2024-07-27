@@ -7,11 +7,11 @@ from .api import views as api_views
 from django.conf import settings
 
 router = routers.DefaultRouter()
-router.register(r'reports', api_views.ReportViewSet)
-router.register(r'report', api_views.ReportNestedViewSet)
-router.register(r'formats', api_views.FormatViewSet)
-router.register(r'filterfields', api_views.FilterFieldViewSet)
-router.register(r'contenttypes', api_views.ContentTypeViewSet)
+router.register(r'reports', api_views.ReportViewSet, basename='reports')
+router.register(r'report', api_views.ReportNestedViewSet, basename='report')
+router.register(r'formats', api_views.FormatViewSet, basename='formats')
+router.register(r'filterfields', api_views.FilterFieldViewSet, basename='filterfields')
+router.register(r'contenttypes', api_views.ContentTypeViewSet, basename='contenttypes')
 
 urlpatterns = [
     path('report/<int:pk>/download_file/', views.DownloadFileView.as_view(), name="report_download_file"),
